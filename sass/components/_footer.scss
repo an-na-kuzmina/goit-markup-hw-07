@@ -1,0 +1,17 @@
+.footer {
+  background-color: var(--hero-footer-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-wrap {
+  display: flex;
+  align-items: baseline;
+}
+.footer-wrap__footer-contact-block {
+  margin-right: 70px;
+}
+
+.footer-wrap__footer-social-wrap {
+  margin-right: 93px;
+}
