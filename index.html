@@ -23,7 +23,7 @@
   <body>
     <header class="header">
       <div class="container header-nav">
-        <a class="logo header-nav__logo" href="./index.html"
+        <a class="logo logo--header header-nav__logo" href="./index.html"
           ><span class="logo__logo-span">Web</span>Studio</a
         >
 
@@ -56,15 +56,165 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+          <button data-modal-open type="button" class="btn-order">Заказать услугу</button>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <ul class="list feature-list">
+            <li class="feature-list__item">
+              <div class="feature-list__icon-box">
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3 class="feature-list__title">Внимание к деталям</h3>
+              <p class="feature-list__text">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </li>
+
+            <li class="feature-list__item">
+              <div class="feature-list__icon-box">
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3 class="feature-list__title">Пунктуальность</h3>
+              <p class="feature-list__text">
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </li>
+            <li class="feature-list__item">
+              <div class="feature-list__icon-box">
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h3 class="feature-list__title">Планирование</h3>
+              <p class="feature-list__text">
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </li>
+            <li class="feature-list__item">
+              <div class="feature-list__icon-box">
+                <svg width="70" height="70">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="feature-list__title">Современные технологии</h3>
+              <p class="feature-list__text">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section-no-padding">
+        <div class="container">
+          <h2 class="about-us-title">Чем мы занимаемся</h2>
+          <ul class="list about-us-list">
+            <li class="about-us-list__item">
+              <a href=""
+                ><img
+                  src="./images/box1.jpg"
+                  width="370"
+                  height="294"
+                  alt="направление деятельности 1"
+              /></a>
+
+              <h3 class="about-us-list__overlay">Десктопные приложения</h3>
+            </li>
+            <li class="about-us-list__item">
+              <a href=""
+                ><img
+                  src="./images/box2.jpg"
+                  width="370"
+                  height="294"
+                  alt="направление деятельности 2"
+              /></a>
+              <h3 class="about-us-list__overlay">Мобильные приложения</h3>
+            </li>
+            <li class="about-us-list__item">
+              <a href=""
+                ><img
+                  src="./images/box3.jpg"
+                  width="370"
+                  height="294"
+                  alt="направление деятельности 3"
+              /></a>
+              <h3 class="about-us-list__overlay">Дизайнерские решения</h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="clients-title">Постоянные клиенты</h2>
+          <ul class="list clients-list">
+            <li class="clients-list__item">
+              <a href="" class="clients-list__link">
+                <svg class="clients-list__icon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-client1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-list__item">
+              <a href="" class="clients-list__link">
+                <svg class="clients-list__icon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-client2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-list__item">
+              <a href="" class="clients-list__link">
+                <svg class="clients-list__icon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-client3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-list__item">
+              <a href="" class="clients-list__link">
+                <svg class="clients-list__icon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-client4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-list__item">
+              <a href="" class="clients-list__link">
+                <svg class="clients-list__icon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-client5"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-list__item">
+              <a href="" class="clients-list__link">
+                <svg class="clients-list__icon" width="106" height="60">
+                  <use href="./images/icons.svg#icon-client6"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
 
     <footer class="footer">
       <div class="container footer-wrap">
         <div class="footer-wrap__footer-contact-block">
-          <a class="footer-logo" href="./index.html"><span class="logo-span">Web</span>Studio</a>
+          <a class="footer-logo" href="./index.html"
+            ><span class="footer-logo__logo-span">Web</span>Studio</a
+          >
           <address>
             <a
-              class="footer-contact-link footer-address-link"
+              class="footer-contact-link footer-contact-link--address-link"
               href="https://goo.gl/maps/iWSiA93wagULa9Wx8"
               >г. Киев, пр-т Леси Украинки, 26</a
             ><br />
@@ -76,30 +226,30 @@
         <div class="footer-wrap__footer-social-wrap">
           <p class="join-social">присоединяйтесь</p>
           <ul class="list footer-social-list">
-            <li class="footer-social-item">
-              <a href="" class="footer-social-link">
-                <svg class="footer-social-icon" width="20" height="20">
+            <li class="footer-social-list__item">
+              <a href="" class="footer-social-list__link">
+                <svg class="footer-social-list__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram-footer"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-item">
-              <a href="" class="footer-social-link">
-                <svg class="footer-social-icon" width="20" height="20">
+            <li class="footer-social-list__item">
+              <a href="" class="footer-social-list__link">
+                <svg class="footer-social-list__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter-footer"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-item">
-              <a href="" class="footer-social-link">
-                <svg class="footer-social-icon" width="20" height="20">
+            <li class="footer-social-list__item">
+              <a href="" class="footer-social-list__link">
+                <svg class="footer-social-list__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook-footer"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-item">
-              <a href="" class="footer-social-link">
-                <svg class="footer-social-icon" width="20" height="20">
+            <li class="footer-social-list__item">
+              <a href="" class="footer-social-list__link">
+                <svg class="footer-social-list__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin-footer"></use>
                 </svg>
               </a>
@@ -110,10 +260,15 @@
         <div class="footer-wrap__footer-form-wrap">
           <p class="join-social">Подпишитесь на рассылку</p>
           <form class="footer-form-email" action="">
-            <input class="footer-form-input" type="email" name="email-list" placeholder="E-mail" />
+            <input
+              class="footer-form-email__input"
+              type="email"
+              name="email-list"
+              placeholder="E-mail"
+            />
             <button type="submit" class="foooter-form-bnt">
               Подписаться
-              <svg class="footer-form-icon" width="24" height="24">
+              <svg class="foooter-form-bnt__icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
