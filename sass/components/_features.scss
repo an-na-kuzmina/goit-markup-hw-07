@@ -12,7 +12,7 @@
 
 .feature-list__icon-box {
   margin-bottom: 30px;
-  background-color: var(--grey-bg-color);
+  background-color: $grey-bg-color;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--dark-color);
+  color: $dark-color;
 }
 
 .feature-list__text {
@@ -36,5 +36,5 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-color);
+  color: $main-color;
 }

@@ -5,8 +5,8 @@
 body {
   font-family: $main-font;
   font-style: normal;
-  background-color: var(--white-color);
-  color: var(--main-color);
+  background-color: $white-color;
+  color: $main-color;
 }
 
 h1,

@@ -1,5 +1,5 @@
 .header {
-  border-bottom: 1px solid var(--header-border);
+  border-bottom: 1px solid $header-border;
 }
 
 .header-nav {
@@ -17,7 +17,7 @@
 }
 
 .logo--header {
-  color: var(--dark-color);
+  color: $dark-color;
 }
 
 .header-nav__logo {
@@ -27,7 +27,7 @@
 }
 
 .logo__logo-span {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .navigation {
@@ -43,7 +43,7 @@
   padding-top: 32px;
   padding-bottom: 32px;
 
-  color: var(--dark-color);
+  color: $dark-color;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -53,12 +53,12 @@
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
 .navigation__link--action {
-  color: var(--accent-color);
+  color: $accent-color;
   position: relative;
 
   &::after {
@@ -67,7 +67,7 @@
     left: 0;
     bottom: 0;
     display: block;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     height: 4px;
     border-radius: 2px;
     width: 100%;
@@ -83,13 +83,13 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--main-color);
+  color: $main-color;
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 

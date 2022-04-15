@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--hero-footer-color);
+  background-color: $hero-footer-color;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -16,11 +16,11 @@
   @extend .logo;
   display: inline-block;
   margin-bottom: 20px;
-  color: var(--white-color);
+  color: $white-color;
 }
 
 .footer-logo__logo-span {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .footer-wrap__footer-social-wrap {
@@ -40,7 +40,7 @@
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
     text-decoration: none;
   }
 }
@@ -50,7 +50,7 @@
 }
 
 .footer-contact-link--address-link {
-  color: var(--white-color);
+  color: $white-color;
   font-style: normal;
 }
 
@@ -62,7 +62,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--white-color);
+  color: $white-color;
 }
 
 .footer-social-list {
@@ -79,7 +79,7 @@
   justify-content: center;
   width: 44px;
   height: 44px;
-  color: var(--white-color);
+  color: $white-color;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   cursor: pointer;
@@ -87,7 +87,7 @@
 
   &:hover,
   &:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
   }
 }
 
@@ -107,11 +107,12 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: var(--hero-footer-color);
-  color: var(--white-color);
+  background-color: $hero-footer-color;
+  color: $white-color;
 }
 
 .foooter-form-bnt {
+  @extend %button;
   width: 200px;
   height: 50px;
   padding-top: 10px;
@@ -120,22 +121,13 @@
   padding-right: 28px;
   margin-left: 12px;
 
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  border: 0px;
-
   display: flex;
   align-items: center;
   text-align: center;
 
-  color: var(--white-color);
-  background-color: var(--accent-color);
+  color: $white-color;
+  background-color: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 .foooter-form-bnt__icon {
