@@ -111,7 +111,7 @@
     color: rgba(117, 117, 117, 0.5);
   }
 
-  &:hover,
+  &:hover + .form__icon,
   &:focus + .form__icon {
     fill: $accent-color;
   }
@@ -144,11 +144,6 @@
 
 .form__icon-position {
   position: relative;
-  /*
-  &:focus-within .form__icon {
-    fill: $accent-color;
-  } 
-*/
 }
 
 .form__label {
